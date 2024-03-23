@@ -69,7 +69,14 @@ function App() {
         const originalBackground = element.style.backgroundColor;
         element.style.backgroundColor = 'black';
   
-        html2canvas(element)
+        html2canvas(element, {
+          width: element.offsetWidth, // Specify the width for html2canvas
+          height: element.offsetHeight, // Specify the height for html2canvas
+          scale: 1, // You can adjust this based on your needs
+          // Adjusting for devicePixelRatio if necessary
+          windowWidth: element.scrollWidth,
+          windowHeight: element.scrollHeight
+        })
           .then((canvas) => {
             // Create an image and trigger a download
             const image = canvas.toDataURL("image/png").replace("image/png", "image/octet-stream");
