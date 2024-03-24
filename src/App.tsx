@@ -159,7 +159,7 @@ function App() {
               <p style={{color: "#39ff14", fontWeight: '400', fontSize: "18px"}}>Generate a constellation in the $STARs...</p>
             </div>
             <div className="inputBox">
-              <input  style={inputStyle} type="text" placeholder="Type & tap $STARs..." value={inputText} // Controlled input
+              <input  style={inputStyle} type="text" placeholder="Constellation name..." value={inputText} // Controlled input
                 onChange={(e) => setInputText(e.target.value)}/>
               <div onClick={clickStars} style={{ cursor: "pointer", marginLeft: '10px', height: '40px', width: '40px', backgroundColor: 'transparent', borderRadius: '10px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                 <Lottie options={buttonLottieOptions} height={50} width={50} isClickToPauseDisabled={true} />
