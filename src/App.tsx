@@ -129,7 +129,7 @@ function App() {
                 width={50}
                 isClickToPauseDisabled={true}
               />
-              <p style={{color: "#4285f4", fontWeight: '500', fontSize: isTabletOrMobile ? "8px" : "13px"}}>0x0000000000000000000000000000000000000000</p>
+              <p style={{color: "#4285f4", fontWeight: '500', fontSize: isTabletOrMobile ? "8px" : "13px"}}>0xXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
           </div>
         </div>
         <div className='horizontallyCentered'>
