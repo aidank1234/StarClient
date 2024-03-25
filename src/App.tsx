@@ -116,7 +116,7 @@ function App() {
         <div className='socials'>
           <div className='socialBox'>
             <img src="x.png" alt="X" style={{ height: '40px' }} onClick={() => {
-              window.open('https:/x.com/staronbase', '_blank');
+              window.open('https://x.com/staronbase', '_blank');
             }}/> {/* Adjust logo size as needed */}
           </div>
           <div className='socialBox'>
