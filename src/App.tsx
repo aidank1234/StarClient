@@ -115,10 +115,14 @@ function App() {
         </div>
         <div className='socials'>
           <div className='socialBox'>
-            <img src="x.png" alt="X" style={{ height: '40px' }} /> {/* Adjust logo size as needed */}
+            <img src="x.png" alt="X" style={{ height: '40px' }} onClick={() => {
+              window.open('https:/x.com/staronbase', '_blank');
+            }}/> {/* Adjust logo size as needed */}
           </div>
           <div className='socialBox'>
-            <img src="telegram.png" alt="Telegram" style={{ height: '100px' }} /> {/* Adjust logo size as needed */}
+            <img src="telegram.png" alt="Telegram" style={{ height: '100px' }} onClick={() => {
+              window.open('https://t.me/+Oc_cdCQ7QqxiMjdh', '_blank');
+            }}/> {/* Adjust logo size as needed */}
           </div>
         </div>
         <div className='horizontallyCentered'>
