@@ -116,7 +116,7 @@ function App() {
         <div className='socials'>
           <div className='socialBox'>
             <img src="x.png" alt="X" style={{ height: '40px' }} onClick={() => {
-              window.open('https://x.com/staronbase', '_blank');
+              window.open('https://x.com/staronsolana', '_blank');
             }}/> {/* Adjust logo size as needed */}
           </div>
           <div className='socialBox'>
@@ -145,10 +145,10 @@ function App() {
                 
             is a fair launch token with liquidity burnt
             
-            has a total supply allocation of:\n
-            LP 85%
-            Airdrop 9%
-            Team / Marketing 6%
+            with launch managed by pump.fun, the dev allocation will be distributed like so:\n
+            Airdrop 50%
+            Marketing / Burn 30%
+            Dev 20%
                 
             To the $STARs we go.` // actual line-break inside string literal also gets animated in new line, but ensure there are no leading spaces
               ]}
